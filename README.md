@@ -5,12 +5,12 @@ http://localhost:3000/
 class Books
 {
     String name;
-    String type;
+    String author;
     String price;
-    constructor(name, type, price) 
+    constructor(name, author, price) 
     {
      this.name = name;         
-     this.type = type;      
+     this.type = author;      
      this.price = price;  
     }
 }
