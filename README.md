@@ -10,7 +10,7 @@ class Books
     constructor(name, author, price) 
     {
      this.name = name;         
-     this.type = author;      
+     this.author = author;      
      this.price = price;  
     }
 }
